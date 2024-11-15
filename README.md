@@ -14,7 +14,8 @@ This project showcases a **3D Page Carousel** built using SwiftUI. The implement
 
 ## How It Works
 
-![Uploading Simulator Screen Recording - iPhone 16 Pro - 2024-11-15 at 18.04.15.gif…]()
+![Simulator Screen Recording - iPhone 16 Pro - 2024-11-15 at 18 04 15](https://github.com/user-attachments/assets/3b74c6af-a5a0-48ff-9223-853142a6d9c9)
+
 
 ## System Requirements
 
@@ -25,12 +26,6 @@ This project showcases a **3D Page Carousel** built using SwiftUI. The implement
 1. Clone or download the repository to your local machine.
 2. Open the project in Xcode.
 3. Build and run the application on an iOS simulator or device.
-
-## Usage
-
-- Upon launching the application, you can select between the two tabs at the bottom to play or view results.
-- In the game tab, you can interact with the board to place your chips and play against the machine.
-- In the results tab, a list of previous games along with their corresponding information is displayed.
 
 ## Contributions
 
