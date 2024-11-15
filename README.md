@@ -14,20 +14,28 @@ This project showcases a **3D Page Carousel** built using SwiftUI. The implement
 
 ## How It Works
 
-The main components of the carousel include:
+![Uploading Simulator Screen Recording - iPhone 16 Pro - 2024-11-15 at 18.04.15.gif…]()
 
-1. **`TabView`**:
-   - Provides swipeable pages.
-   - Styled with `.tabViewStyle(PageTabViewStyle(indexDisplayMode: .never))` to hide the default page indicators.
+## System Requirements
 
-2. **`GeometryReader`**:
-   - Captures each page's position and size to compute the 3D rotation effect.
+- iOS 17
 
-3. **Rotation Calculation**:
-   - The `rotation3DEffect` modifier is applied based on the page's X-offset (`minX`) to achieve the 3D perspective.
+## Installation
 
-4. **Constants**:
-   - Encapsulated within a private `Constants` enum for easy adjustment:
-     - `perspective`: Controls the depth of the 3D effect.
-     - `rotationAngle`: Determines the maximum rotation angle for pages.
+1. Clone or download the repository to your local machine.
+2. Open the project in Xcode.
+3. Build and run the application on an iOS simulator or device.
 
+## Usage
+
+- Upon launching the application, you can select between the two tabs at the bottom to play or view results.
+- In the game tab, you can interact with the board to place your chips and play against the machine.
+- In the results tab, a list of previous games along with their corresponding information is displayed.
+
+## Contributions
+
+Contributions are welcome! If you would like to contribute to this project, please open an issue to discuss the proposed changes or submit a pull request with your enhancements.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
